@@ -1,4 +1,5 @@
-# GitHub Codespaces ♥️ React
+# GitHub Codespaces  React♥️
+
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
 
@@ -11,13 +12,14 @@ This project was bootstrapped for you with [Create React App](https://github.com
 ## Available Scripts
 
 In the project directory, you can run:
+![1](https://github.com/alberthoxha/huddle-app/assets/123065766/57538474-1669-4829-90d5-1e0d7dce1e86)
+![2](https://github.com/alberthoxha/huddle-app/assets/123065766/72fbdfbe-007c-43cb-85a6-c53ee6f5296f)
+![3](https://github.com/alberthoxha/huddle-app/assets/123065766/2de668c7-ff2f-4ef3-8bbe-cdd89b9ebf19)
 
-### `npm start`
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+
+
 
 The page will reload automatically when you make changes.\
 You may also see any lint errors in the console.
