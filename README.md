@@ -8,7 +8,7 @@ By leveraging React and styled-components, this web application offers a unique 
 
 
 ## Web link
-https://papaya-malabi-8f40ce.netlify.app/
+[https://huddle-web-app.netlify.app](https://huddle-web-app.netlify.app/)
 
 
 ![1](https://github.com/alberthoxha/huddle-app/assets/123065766/57538474-1669-4829-90d5-1e0d7dce1e86)
