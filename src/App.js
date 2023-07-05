@@ -1,19 +1,35 @@
-import "./App.css";
+import { ThemeProvider } from 'styled-components'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Card from './components/Card'
+import { Container } from './components/styles/Container.styled'
+import GlobalStyles from './components/styles/Global'
+import content from './content'
 
-import React, { useState } from "react";
+const theme = {
+  colors: {
+    header: '#ebfbff',
+    body: '#fff',
+    footer: '#003333',
+  },
+  mobile: '768px',
+}
 
-const App = () => {
-  const [data, setData] = useState([1, 2, 3]);
-  const onChange = (event) => {
-    setData([...data, Number(event.target.value)]);
-    console.log(data);
-  };
+function App() {
   return (
-    <>
-      <input type="text" onChange={onChange} />
-      {data}
-    </>
-  );
-};
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <Header />
+        <Container>
+          {content.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        </Container>
+        <Footer />
+      </>
+    </ThemeProvider>
+  )
+}
 
-export default App;
+export default App
